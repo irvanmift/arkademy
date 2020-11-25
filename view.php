@@ -32,7 +32,6 @@
       <div class="tabel table-responsive">
         <table align="center" class="table table-border table-striped" style="width: 90%;">
         <tr>
-          <th>Kode Barang</th>
           <th>Nama Barang</th>
           <th>Keterangan</th>
           <th>Harga</th>
@@ -45,9 +44,8 @@
           <tr>
             <td>$row[0]</td>
             <td>$row[1]</td>
-            <td>$row[2]</td>
-            <td>Rp.".number_format($row[3])."</td>
-            <td>$row[4]</td>";
+            <td>Rp.".number_format($row[2])."</td>
+            <td>$row[3]</td>";
             ?><td>
                 <a title="Edit" class="link fa fa-pencil fa-lg" href="index.php?viewEditProduk=<?php echo "$row[0]" ?>"></a>
                 <a title="Delete" class="link fa fa-trash fa-lg" onclick="return(confirm('Hapus Data?'))" href="index.php?hapusProduk=<?php echo "$row[0]" ?>"></a>
