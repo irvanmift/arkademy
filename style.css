@@ -1,0 +1,142 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background:linear-gradient(
+     rgba(0,0,0,0.3),
+     rgba(0,0,0,0.6)
+  ),
+  url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background:linear-gradient(
+     rgba(0,0,0,0.6),
+     rgba(0,0,0,0.6)
+  ),
+  url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.latar{
+  color:white;
+  width: 100%;
+
+  padding-top: 5%;
+}
+
+.judul1{
+  font-size: 50px;
+}
+
+.judul2{
+  color: sandybrown;
+  font-size: 45px;
+}
+
+.judul3{
+  font-family: Sans-Serif;
+}
+
+table{
+
+}
+
+.logo{
+  width: 15%;
+  filter: invert(100%);
+}
+
+.inp{
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.b1{
+  color: sandybrown;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid sandybrown;
+  border-radius: 1.5em;
+  cursor: pointer;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.b2{
+  color: white;
+  box-sizing: border-box;
+  background-color: sandybrown;
+  border: 2px solid sandybrown;
+  border-radius: 1.5em;
+  cursor: pointer;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.b1:hover{
+  background-color: sandybrown;
+  color: white;
+  text-decoration: none;
+}
+
+.b2:hover{
+  color: sandybrown;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid sandybrown;
+}
+
+.b3{
+ font-family: pacifico;
+ font-size: 10px;
+ width: 100%; 
+}
+
+.kembali{
+  color: sandybrown;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.kembali:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.isi {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.tabel{
+  background-color: whitesmoke;
+  padding-top: 30px;
+}
+
+.fa{
+  text-decoration: none; 
+}
+
+.link:hover{
+  text-decoration: none;
+  color: sandybrown;
+}
