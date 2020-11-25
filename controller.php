@@ -18,19 +18,18 @@ class controller{
 		include "view.php";
 	}
 
-	function viewEditProduk($kode){
-		$data = $this->model->viewEditProduk($kode);
+	function viewEditProduk($nama_produk){
+		$data = $this->model->viewEditProduk($nama_produk);
 		include "viewEditProduk.php";
 	}
 
 	function editProduk(){
-		$kd_produk = $_POST['kd_produk'];
 		$nama_produk = $_POST['nama_produk'];
 		$harga = $_POST['harga'];
 		$jumlah = $_POST['jumlah'];
 		$keterangan = $_POST['keterangan'];
 
-		$editBarang = $this->model->editProduk($kd_produk, $nama_produk, $keterangan, $harga, $jumlah);
+		$editBarang = $this->model->editProduk($nama_produk, $keterangan, $harga, $jumlah);
 		header("location:?beranda");
 	}
 
@@ -45,12 +44,12 @@ class controller{
 		$harga = $_POST['harga'];
 		$jumlah = $_POST['jumlah'];
 
-		$inputProduk = $this->model->inputProduk($kd_produk, $nama_produk, $keterangan, $harga, $jumlah);
+		$inputProduk = $this->model->inputProduk($nama_produk, $keterangan, $harga, $jumlah);
 		header("location:?beranda");
 	}
 
-	function hapusProduk($kode){
-		$data = $this->model->hapusProduk($kode);
+	function hapusProduk($nama_produk){
+		$data = $this->model->hapusProduk($nama_produk);
 		header("location:?beranda");
 	}
 

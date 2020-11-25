@@ -24,28 +24,23 @@
           </tr>
           <tr>
             <td colspan="3">
-              <input name="kd_produk" type="text" class="inp form-control" readonly="" value="<?php echo $row[0];?>">
+              <input name="nama_produk" type="text" class="inp form-control" value="<?php echo $row[0];?>">
             </td>
           </tr>
           <tr>
             <td colspan="3">
-              <input name="nama_produk" type="text" class="inp form-control" value="<?php echo $row[1];?>">
+              <input name="harga" type="text" class="inp form-control" value="<?php echo $row[2];?>">
             </td>
           </tr>
           <tr>
             <td colspan="3">
-              <input name="harga" type="text" class="inp form-control" value="<?php echo $row[3];?>">
-            </td>
-          </tr>
-          <tr>
-            <td colspan="3">
-              <input name="jumlah" type="text" class="inp form-control" value="<?php echo $row[4];?>">
+              <input name="jumlah" type="text" class="inp form-control" value="<?php echo $row[3];?>">
             </td>
             <td style="width:20px;"></td>
           </tr>
           <tr>
             <td colspan="3">
-              <textarea name="keterangan" id="" cols="30" rows="5" class="inp form-control" value="<?php echo $row[2];?>"><?php echo $row[2];?></textarea>
+              <textarea name="keterangan" id="" cols="30" rows="5" class="inp form-control" value="<?php echo $row[1];?>"><?php echo $row[1];?></textarea>
             </td>
           </tr>
           <tr>
